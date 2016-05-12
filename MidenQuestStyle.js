@@ -14,16 +14,12 @@
 (function() {
     'use strict';
 
-    function addGlobalStyle(css) {
-    var head, style;
-    head = document.getElementsByTagName('head')[0];
-    if (!head) { return; }
-    style = document.createElement('style');
-    style.type = 'text/css';
-    style.innerHTML = css;
-    head.appendChild(style);
+    function generateLayout(){
+      var body;
+      body = document.getElementsByTagName('body')[0];
+      if(!body) { return; }
+      body.innerHTML("");
     }
 
-    addGlobalStyle('body { background-color: #fff !important;  }');
-    addGlobalStyle('#ZoneChat > .Tabs > ul > li { width: 135px !important; font-size: 0.9em;  }');
+    generateLayout();
 })();
