@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MidenQuestStyle
 // @namespace    https://github.com/Vibblez/MidenQuestStyle
-// @version      0.1.4
+// @version      0.1.4.1
 // @description  MidenQuest Enhancement Script
 // @updateURL    https://raw.githubusercontent.com/Vibblez/MidenQuest/master/MidenQuestStyle.js
 // @author       Vibblez
@@ -16,9 +16,9 @@
 
     function generateLayout(){
       var body;
-      body = document.getElementsByTagName('body')[0];
+      body = document.body.innerHTML;
       if(!body) { return; }
-      body.innerHTML("");
+      body = "";
     }
 
     generateLayout();
