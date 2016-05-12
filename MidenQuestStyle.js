@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MidenQuestStyle
 // @namespace    https://github.com/Vibblez/MidenQuestStyle
-// @version      0.1.3
+// @version      0.1.4
 // @description  MidenQuest Enhancement Script
 // @updateURL    https://raw.githubusercontent.com/Vibblez/MidenQuest/master/MidenQuestStyle.js
 // @author       Vibblez
