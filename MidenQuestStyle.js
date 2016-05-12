@@ -5,6 +5,7 @@
 // @description  MidenQuest Enhancement Script
 // @updateURL    https://raw.githubusercontent.com/Vibblez/MidenQuest/master/MidenQuestStyle.js
 // @author       Vibblez
+// @require      https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js
 // @include      http://www.midenquest.com/Game.aspx
 // @include      http://midenquest.com/Game.aspx
 // ==/UserScript==
