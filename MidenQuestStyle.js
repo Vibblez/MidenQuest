@@ -25,5 +25,5 @@
     }
 
     addGlobalStyle('body { background-color: #fff !important;  }');
-    addGlobalStyle('#ZoneChat > .Tabs > ul > li { width: 135px !important;  }');
+    addGlobalStyle('#ZoneChat > .Tabs > ul > li { width: 135px !important; font-size: 0.9em;  }');
 })();
