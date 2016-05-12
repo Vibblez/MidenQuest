@@ -24,5 +24,6 @@
     head.appendChild(style);
     }
 
-    addGlobalStyle('.body { background-color: #fff !important;  }');
+    addGlobalStyle('body { background-color: #fff !important;  }');
+    addGlobalStyle('#ZoneChat > .Tabs > ul > li { width: 135px !important;  }');
 })();
