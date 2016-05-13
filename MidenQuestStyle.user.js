@@ -26,17 +26,19 @@
     }
 
     addGlobalStyle('body { background-color: #000 !important;  }');
-    addGlobalStyle('#ZoneContent { background-color: #555 }');
+    addGlobalStyle('#MainPanel { height: 100% !important;  }');
+    addGlobalStyle('#TopScreen { padding-top: 0px !important; height: 552px; }');
+    addGlobalStyle('#ZoneContent { background-color: #555; width: 65% !important; }');
     addGlobalStyle('.prgActionOverlay { margin-top: -20px; }');
     addGlobalStyle('#ZoneOptions { background-color: #333 }');
     addGlobalStyle('#TitleEmbedded { height: 20px; border-bottom: 2px solid #000000 !important; margin-bottom: 5px !important; }');
     addGlobalStyle('#ZoneOptions { background-color: #333 }');
     addGlobalStyle('#InfoZone { border-bottom: 2px solid #000000 !important; }');
     addGlobalStyle('#MiniMap { border: 2px solid #000000 !important; }');
-    addGlobalStyle('#ZoneChat { height: 330px; border-radius: 0px 0px 10px 10px; -moz-border-radius: 0px 0px 10px 10px; -webkit-border-radius: 0px 0px 10px 10px; background-color: #333 !important; }');
+    addGlobalStyle('#ZoneChat { height: 330px; border-radius: 0px 0px 10px 10px; -moz-border-radius: 0px 0px 0px 0px !important; -webkit-border-radius: 0px 0px 0px 0px !important; background-color: #333 !important; padding-top: 0px !important; padding-right: 0px !important; }');
     addGlobalStyle('#ZoneChat > .Tabs > ul > li, #ZoneChat > .Tabs > ul > li > div { width: 135px !important; font-size: 0.9em; background-color: #1F1E1E }');
     addGlobalStyle('#ZoneChat > .Tabs > ul > li.TabSel > div { width: 135px !important; font-size: 0.9em; background-color: #3E3C3C }');
-    addGlobalStyle('#ChatLog { height: 270px; background-color: #1F1E1E !important; border-radius: 0px 0px 10px 10px; -moz-border-radius: 0px 0px 10px 10px; -webkit-border-radius: 0px 0px 10px 10px; }');
+    addGlobalStyle('#ChatLog { height: 270px; background-color: #1F1E1E !important; border-radius: 0px 0px 0px 0px !important; -moz-border-radius: 0px 0px 0px 0px !important; -webkit-border-radius: 0px 0px 0px 0px !important; }');
     addGlobalStyle('body > div:nth-child(2) { display: none; }');
     addGlobalStyle('#ChatLog > div, #ChatLog > div > span { color: #9A9A9A !important; }');
     addGlobalStyle('#ChatLog > div { padding: 1.5px }');
