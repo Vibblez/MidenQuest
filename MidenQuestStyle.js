@@ -50,4 +50,31 @@
 
     $("#TitleEmbedded").html('<div style="text-align: center; margin: 10px auto; clear:both; color:#000; font-size:10pt; padding-top:3px;"><a class="aLink" href="Home.aspx" target="_blank">Home</a>&nbsp;|&nbsp;<a class="aLink" href="Terms.aspx" target="_blank">Terms of Service</a>&nbsp;|&nbsp;<a class="aLink" href="Credits.aspx" target="_blank">Credits</a>&nbsp;|&nbsp;<a class="aLink" href="FAQ.aspx" target="_blank">FAQ</a>&nbsp;|&nbsp;<a class="aLink" href="https://www.reddit.com/r/MidenQuestOnline/wiki/index" target="_blank">Wiki</a>&nbsp;|&nbsp;<a class="aLink" href="https://www.reddit.com/r/MidenQuestOnline/" target="_blank">Subreddit</a></div>');
     $("div.chatShout1 span").removeAttr("style");
+
+    /*
+    URL Parser provided by Shamadru
+    */
+
+    addGlobalStyle('#ChatLog  a:link { color: cyan; }');
+    addGlobalStyle('#ChatLog  a:visited { color: magenta; }');
+    addGlobalStyle('#ChatLog  a:hover { color: lime; }');
+
+  //Creates a mutation observer, which triggers the callback each time the chat log changes. Then, a regexp replaces link-like text with actual links in the new nodes (and old ones if it's the first time it's triggered).
+
+  MutationObserver.prototype.length = 0;
+  var observer = new MutationObserver(function(mutations, obs) {
+      mutations.forEach(function(mutation) {
+          for (var i = 0; i < mutation.addedNodes.length - obs.length; i++) {
+              var node = mutation.addedNodes.item(i);
+              if (node.innerHTML) {
+                  node.innerHTML = node.innerHTML.replace(/(https*:\/\/\S+)/ig, '<a href="$1">$1</a>');
+              }
+          }
+      });
+      obs.length = mutations[0].addedNodes.length;
+  });
+  observer.observe(document.getElementById("ChatLog"), {
+      childList: true,
+      characterData: true
+  });
 })();
