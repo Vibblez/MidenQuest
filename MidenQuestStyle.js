@@ -6,7 +6,6 @@
 // @updateURL    https://raw.githubusercontent.com/Vibblez/MidenQuest/master/MidenQuestStyle.js
 // @author       Vibblez
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js
-// @require      https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js
 // @include      http://www.midenquest.com/Game.aspx
 // @include      http://midenquest.com/Game.aspx
 // @grant        GM_xmlhttpRequest

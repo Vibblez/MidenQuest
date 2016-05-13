@@ -879,7 +879,7 @@ _Chat.NextTab = function () {
     var CurrentTab = CurrentTabID[CurrentTabID.length -1];
     var NextTab;
 
-    if (CurrentTab < 4) {
+    if (CurrentTab < 5) {
       NextTab = +CurrentTab + 1;
     } else {
       NextTab = 1;
