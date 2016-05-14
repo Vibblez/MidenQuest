@@ -68,7 +68,7 @@
           for (var i = 0; i < mutation.addedNodes.length - obs.length; i++) {
               var node = mutation.addedNodes.item(i);
               if (node.innerHTML) {
-                  node.innerHTML = node.innerHTML.replace(/(https*:\/\/\S+)/ig, '<a href="$1">$1</a>');
+                node.innerHTML = node.innerHTML.replace(/(goo.gl\/\w{6})|https?:\/\/(\S+(?=<|[^<\S+>]))|(\w+(?:\.com|\.net|\.edu|\.org|\.co|\.uk|\.gov)\S*(?=<|[^<\S+>]))/g, '<a href="http://' + ("$1" + "$2" + "$3") + '" target="_blank">' + ("$1" + "$2" + "$3") + '</a>');
               }
           }
       });
