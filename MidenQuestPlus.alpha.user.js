@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MidenQuest+
 // @namespace    https://github.com/Vibblez/MidenQuest
-// @version      0.63
+// @version      0.63.1
 // @description  MidenQuest Enhancement Script
 // @updateURL    https://raw.githubusercontent.com/Vibblez/MidenQuest/master/MidenQuestPlus.alpha.user.js
 // @author       Ryalane, Herpes, derivagral, Vibblez
@@ -356,6 +356,14 @@ _Page.SetupUI = function (Username) {
       ChangeChatChannel(4);
       _Chat.Clear();
       _Chat.ResetTab(4);
+    }
+  });
+  $("#ChatCh5").click(function () {
+    if (_Chat.CurrentTab != 5) {
+      _Chat.CurrentTab = 5;
+      ChangeChatChannel(5);
+      _Chat.Clear();
+      _Chat.ResetTab(5);
     }
   });
 
