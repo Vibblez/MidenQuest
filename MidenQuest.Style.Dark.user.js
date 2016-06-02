@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MidenQuest - Dark Theme
 // @namespace    https://github.com/Vibblez/MidenQuest
-// @version      0.1.2
+// @version      0.1.3
 // @description  MidenQuest Enhancement Script
 // @updateURL    https://raw.githubusercontent.com/Vibblez/MidenQuest/master/MidenQuest.Style.Dark.user.js
 // @author       Vibblez
@@ -40,4 +40,7 @@
     addGlobalStyle('.ui-widget-header { border: 1px solid #000000 !important; background: #555 !important; color: #ffffff; font-weight: bold; font-size: 1em !important; height: 20px !important; margin: 1px; padding-top: 2px; }');
 	addGlobalStyle('#KingdomMap { border: 2px #000 solid !important; }');
 	addGlobalStyle('#KingdomMap + div { border-left: 2px #000 solid !important; border-right: 2px #000 solid !important; border-bottom: 2px #000 solid !important; }');
+	addGlobalStyle('.TradeskillSection { color: #999 !important; background-color: #333 !important; }');
+	addGlobalStyle('.gmButtonBig { background-color: #858585 !important; color: #000 !important; border: solid 1px #000 !important;}');
+	addGlobalStyle('.gmButtonMed { background-color: #858585 !important; color: #000 !important; border: solid 1px #000 !important;}');
 })();
