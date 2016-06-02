@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MidenQuestCustomNavbar
 // @namespace    https://github.com/Vibblez/MidenQuest
-// @version      0.1.2.1
+// @version      0.1.2.2
 // @description  MidenQuest Enhancement Script
 // @updateURL    https://raw.githubusercontent.com/Vibblez/MidenQuest/master/MidenQuest.CustomNavbar.user.js
 // @author       Vibblez
@@ -67,5 +67,6 @@
 	
     addGlobalStyle('body > div:nth-child(2) { display: none; } #TitleEmbedded {  margin-bottom: 5px !important; }');
     addGlobalStyle('.drop { height: 40px; } .drop_menu {  padding:0;	margin:0;	list-style-type:none;	height:40px;}.drop_menu li { float:left; z-index: 9999; padding-top: 5px; }.drop_menu li a {	padding:9px 20px;	display:block;	color:#fff;	text-decoration:none;	font:12px arial, verdana, sans-serif;}.drop_menu ul {	position:absolute;	left:-9999px;	top:-9999px;	list-style-type:none;}.drop_menu li:hover { position:relative; }.drop_menu li:hover ul {	left:0px;	top:30px;	background:#BFAD71;	padding:0px; margin-left;     border-left: 2px #000 solid;border-right: 2px #000 solid;border-bottom: 2px #000000 solid;}.drop_menu li:hover ul li a {	display:block;	width:100px }.drop_menu li:hover ul li a:hover { background:#005555; }');
+    addGlobalStyle('.prgActionOverlay { margin-top: -20px !important; }');
 
 })();
