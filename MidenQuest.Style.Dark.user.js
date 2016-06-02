@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MidenQuest - Dark Theme
 // @namespace    https://github.com/Vibblez/MidenQuest
-// @version      0.1.3.1
+// @version      0.1.3.2
 // @description  MidenQuest Enhancement Script
 // @updateURL    https://raw.githubusercontent.com/Vibblez/MidenQuest/master/MidenQuest.Style.Dark.user.js
 // @author       Vibblez
@@ -28,8 +28,8 @@
     addGlobalStyle('body { background-color: #000 !important;  }');
     addGlobalStyle('#ZoneContent { background-color: #555 !important;  }');
     addGlobalStyle('#TitleEmbedded { border-bottom: #000 2px solid;  }');
-	addGlobalStyle('#ZoneOptions { background-color: #333 !important;  }');
-	addGlobalStyle('#ZoneChat { background-color: #333 !important;  }');
+	addGlobalStyle('#ZoneOptions { background-color: #444 !important;  }');
+	addGlobalStyle('#ZoneChat { background-color: #444 !important;  }');
     addGlobalStyle('#InfoZone { border-bottom: 2px solid #000000 !important; }');
     addGlobalStyle('#MiniMap { border: 2px solid #000000 !important; }');
     addGlobalStyle('.ui-widget-content { border: 1px solid #111; background: #909090; color: #333333; }');
@@ -46,4 +46,6 @@
     addGlobalStyle('.SearchLinkDiv { background-color: #858585 !important; color: #000 !important; border: solid 1px #000 !important;}');
 	addGlobalStyle('.drop_menu li:hover ul { background-color: #555 !important;}');
 	addGlobalStyle('.drop_menu li:hover ul li a:hover {    background: #777; }');
+	addGlobalStyle('#ChatLog { background-color: #333 }');
+	addGlobalStyle('#ChatLog > div, #ChatLog > div > span { color: #999 !important; }');
 })();
