@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MidenQuest - Dark Theme
 // @namespace    https://github.com/Vibblez/MidenQuest
-// @version      0.1.3.2
+// @version      0.1.3.3
 // @description  MidenQuest Enhancement Script
 // @updateURL    https://raw.githubusercontent.com/Vibblez/MidenQuest/master/MidenQuest.Style.Dark.user.js
 // @author       Vibblez
@@ -37,7 +37,7 @@
     addGlobalStyle('.prgactionwrapper > #prgactiontimer > .ui-widget-header { border: 1px solid #111; background: #646464; color: #333333; }');
 	addGlobalStyle('.darkBtn { background: #343434 !important; border: 1px solid #FFFFFF !important; }');
 	addGlobalStyle('.darkBtn:hover { background: #454545!important;    border: 1px solid #FFFFFF !important;    color: #FFFFFF !important; }');
-    addGlobalStyle('.ui-widget-header { border: 1px solid #000000 !important; background: #555 !important; color: #ffffff; font-weight: bold; font-size: 1em !important; height: 20px !important; margin: 1px; padding-top: 2px; }');
+    addGlobalStyle('.ui-widget-header { border: 1px solid #000000 !important; background: #666 !important; color: #ffffff; font-weight: bold; font-size: 1em !important; height: 20px !important; margin: 1px; padding-top: 2px; }');
 	addGlobalStyle('#KingdomMap { border: 2px #000 solid !important; }');
 	addGlobalStyle('#KingdomMap + div { border-left: 2px #000 solid !important; border-right: 2px #000 solid !important; border-bottom: 2px #000 solid !important; }');
 	addGlobalStyle('.TradeskillSection { color: #999 !important; background-color: #333 !important; }');
@@ -48,4 +48,8 @@
 	addGlobalStyle('.drop_menu li:hover ul li a:hover {    background: #777; }');
 	addGlobalStyle('#ChatLog { background-color: #333 }');
 	addGlobalStyle('#ChatLog > div, #ChatLog > div > span { color: #999 !important; }');
+	addGlobalStyle('.TabSel div {     background: #333 !important;    color: #999 !important; }');
+	addGlobalStyle('.Tabs li:hover div {     background: #333 !important;    color: #999 !important; }');
+	addGlobalStyle('.TabSel:hover div {    background: #333 !important;    color: #999 !important;}');
+	addGlobalStyle('.Tabs li { text-shadow: 1px 1px 0 #777 !important; }');
 })();
