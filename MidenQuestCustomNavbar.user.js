@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MidenQuestCustomNavbar
 // @namespace    https://github.com/Vibblez/MidenQuestStyle
-// @version      0.1
+// @version      0.1.1
 // @description  MidenQuest Enhancement Script
 // @updateURL    https://raw.githubusercontent.com/Vibblez/MidenQuest/master/MidenQuestCustomNavbar.js
 // @author       Vibblez
@@ -24,7 +24,7 @@
 						<a href="https://www.reddit.com/r/MidenQuestOnline/" target="_blank">Subreddit</a>\
 					</li>\
 					<li>\
-						<a class="aLink" href="Credits.aspx" target="_blank">Credits</a>\
+						<a href="Credits.aspx" target="_blank">Credits</a>\
 					</li>\
 					<li>\
 						<a href="#">Help</a>\
