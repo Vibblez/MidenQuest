@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MidenQuest - Dark Theme
 // @namespace    https://github.com/Vibblez/MidenQuest
-// @version      0.1.3.5
+// @version      0.1.3.6
 // @description  MidenQuest Enhancement Script
 // @updateURL    https://raw.githubusercontent.com/Vibblez/MidenQuest/master/MidenQuest.Style.Dark.user.js
 // @author       Vibblez
@@ -44,8 +44,6 @@
 	addGlobalStyle('.gmButtonBig { background-color: #858585 !important; color: #000 !important; border: solid 1px #000 !important;}');
 	addGlobalStyle('.gmButtonMed { background-color: #858585 !important; color: #000 !important; border: solid 1px #000 !important;}');
     addGlobalStyle('.SearchLinkDiv { background-color: #858585 !important; color: #000 !important; border: solid 1px #000 !important;}');
-	addGlobalStyle('.drop_menu li:hover ul { background-color: #555 !important;}');
-	addGlobalStyle('.drop_menu li:hover ul li a:hover {    background: #777; }');
 	addGlobalStyle('#ChatLog { background-color: #333 }');
 	addGlobalStyle('#ChatLog > div, #ChatLog > div > span { color: #999 !important; }');
 	addGlobalStyle('.TabSel div {     background: #333 !important;    color: #999 !important; }');
@@ -54,4 +52,9 @@
 	addGlobalStyle('.Tabs li { text-shadow: 1px 1px 0 #777 !important; }');
 	addGlobalStyle('#InfoZone .InfoLine:nth-of-type(2) {    border-bottom: 2px #000 solid; }');
 	addGlobalStyle('#InfoZone .InfoLine div:nth-of-type(1) {    border-right: 0 !important;}');
+	//Styling for Vibblez custom nav menu
+	addGlobalStyle('.drop_menu li:hover ul { background-color: #555 !important;}');
+	addGlobalStyle('.drop_menu li:hover ul li a:hover {    background: #777; }');
+	//Basic styling for Derivagrals res tracker
+	addGlobalStyle('#resourceLogContainer { padding: 10px; background-color: #333; } ul#resourceLogList li:nth-of-type(1) { padding-bottom: 10px; } #resourceLogList { padding: 10px; }');
 })();
