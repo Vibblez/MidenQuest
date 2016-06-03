@@ -56,5 +56,5 @@
 	addGlobalStyle('.drop_menu li:hover ul { background-color: #555 !important;}');
 	addGlobalStyle('.drop_menu li:hover ul li a:hover {    background: #777; }');
 	//Basic styling for Derivagrals res tracker
-	addGlobalStyle('#resourceLogContainer { padding: 10px; background-color: #333; } ul#resourceLogList li:nth-of-type(1) { padding-bottom: 10px; } #resourceLogList { padding: 10px; }');
+	addGlobalStyle('#resourceLogContainer { padding: 10px; background-color: #333; } ul#resourceLogList li:nth-of-type(1) { padding-bottom: 10px; } #resourceLogList { padding: 10px; } #resourceLogList > li > div > a { color: #999; text-decoration: none; }');
 })();
