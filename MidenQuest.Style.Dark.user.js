@@ -1,17 +1,19 @@
 // ==UserScript==
 // @name         MidenQuest - Dark Theme
 // @namespace    https://github.com/Vibblez/MidenQuest
-// @version      0.1.3.6
+// @version      0.1.3.8
 // @description  MidenQuest Enhancement Script
 // @updateURL    https://raw.githubusercontent.com/Vibblez/MidenQuest/master/MidenQuest.Style.Dark.user.js
 // @author       Vibblez
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js
 // @include      http://www.midenquest.com/Game.aspx
 // @include      http://midenquest.com/Game.aspx
+// @include      http://www.midenquest.com/UserCharacterSelection.aspx
+// @include      http://midenquest.com/UserCharacterSelection.aspx
 // @grant        GM_xmlhttpRequest
 // ==/UserScript==
-
 (function() {
+
     'use strict';
 
     function addGlobalStyle(css) {
@@ -25,7 +27,11 @@
     head.appendChild(style);
     }
 
+	//Global
     addGlobalStyle('body { background-color: #000 !important;  }');
+	//Char select
+    addGlobalStyle('#Header {    background-color: #000000;    margin-bottom: 0px;    padding-bottom: 2px;    color: #999;');
+	//Internal
     addGlobalStyle('#ZoneContent { background-color: #555 !important;  }');
     addGlobalStyle('#TitleEmbedded { border-bottom: #000 2px solid;  }');
 	addGlobalStyle('#ZoneOptions { background-color: #444 !important;  }');
@@ -41,8 +47,8 @@
 	addGlobalStyle('#KingdomMap { border: 2px #000 solid !important; }');
 	addGlobalStyle('#KingdomMap + div { border-left: 2px #000 solid !important; border-right: 2px #000 solid !important; border-bottom: 2px #000 solid !important; }');
 	addGlobalStyle('.TradeskillSection { color: #999 !important; background-color: #333 !important; }');
-	addGlobalStyle('.gmButtonBig { background-color: #858585 !important; color: #000 !important; border: solid 1px #000 !important;}');
-	addGlobalStyle('.gmButtonMed { background-color: #858585 !important; color: #000 !important; border: solid 1px #000 !important;}');
+	addGlobalStyle('.gmButtonBig { background-color: #858585 !important; color: #000 !important; border: solid 1px #000 !important; box-shadow: #000 5px 2px 10px; }');
+	addGlobalStyle('.gmButtonMed { background-color: #858585 !important; color: #000 !important; border: solid 1px #000 !important; box-shadow: #000 5px 2px 10px; }');
     addGlobalStyle('.SearchLinkDiv { background-color: #858585 !important; color: #000 !important; border: solid 1px #000 !important;}');
 	addGlobalStyle('#ChatLog { background-color: #333 }');
 	addGlobalStyle('#ChatLog > div, #ChatLog > div > span { color: #999 !important; }');
@@ -52,6 +58,8 @@
 	addGlobalStyle('.Tabs li { text-shadow: 1px 1px 0 #777 !important; }');
 	addGlobalStyle('#InfoZone .InfoLine:nth-of-type(2) {    border-bottom: 2px #000 solid; }');
 	addGlobalStyle('#InfoZone .InfoLine div:nth-of-type(1) {    border-right: 0 !important;}');
+	addGlobalStyle('#InfoTS .InfoLine:nth-of-type(1) {font-weight: bolder;}');	
+	addGlobalStyle('.SearchLinkDiv {    background-color: #858585 !important;    color: #000 !important;    border: solid 1px #000 !important;    box-shadow: #000 5px 2px 10px;    width: 90%;    padding: 5px;}.SearchLinkDiv div:nth-of-type(1) {    font-weight: bolder;    font-size: 13px !important;}.SearchLinkDiv > div {    font-size: x-small !important;    text-align: center !important;    width: 100%;');	
 	//Styling for Vibblez custom nav menu
 	addGlobalStyle('.drop_menu li:hover ul { background-color: #555 !important;}');
 	addGlobalStyle('.drop_menu li:hover ul li a:hover {    background: #777; }');
