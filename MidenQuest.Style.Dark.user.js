@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MidenQuest - Dark Theme
 // @namespace    https://github.com/Vibblez/MidenQuest
-// @version      0.1.3.9
+// @version      0.1.4.0
 // @description  MidenQuest Enhancement Script
 // @updateURL    https://raw.githubusercontent.com/Vibblez/MidenQuest/master/MidenQuest.Style.Dark.user.js
 // @author       Vibblez
@@ -53,6 +53,7 @@
     addGlobalStyle('.SearchLinkDiv { background-color: #858585 !important; color: #000 !important; border: solid 1px #000 !important;}');
 	addGlobalStyle('#ChatLog { background-color: #333 }');
 	addGlobalStyle('#ChatLog > div, #ChatLog > div > span { color: #999 !important; }');
+	addGlobalStyle('#ZoneChat > div > #txtMessage {width: 870px !important;}');
 	addGlobalStyle('.TabSel div {     background: #333 !important;    color: #999 !important; }');
 	addGlobalStyle('.Tabs li:hover div {     background: #333 !important;    color: #999 !important; }');
 	addGlobalStyle('.TabSel:hover div {    background: #333 !important;    color: #999 !important;}');
@@ -60,6 +61,7 @@
 	addGlobalStyle('#InfoZone .InfoLine:nth-of-type(2) {    border-bottom: 2px #000 solid; }');
 	addGlobalStyle('#InfoZone .InfoLine div:nth-of-type(1) {    border-right: 0 !important;}');
 	addGlobalStyle('#InfoTS .InfoLine:nth-of-type(1) {font-weight: bolder;}');	
+	addGlobalStyle('#InfoTS > .InfoLine div:nth-of-type(1) {text-align: center;}');	
 	addGlobalStyle('.SearchLinkDiv {    background-color: #858585 !important;    color: #000 !important;    border: solid 1px #000 !important;    box-shadow: #000 5px 2px 10px;    width: 90%;    padding: 5px;}.SearchLinkDiv div:nth-of-type(1) {    font-weight: bolder;    font-size: 13px !important;}.SearchLinkDiv > div {    font-size: x-small !important;    text-align: center !important;    width: 100%;');	
 	//Styling for Vibblez custom nav menu
 	addGlobalStyle('.drop_menu li:hover ul { background-color: #555 !important;}');
