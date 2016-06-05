@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MidenQuest - Dark Theme
 // @namespace    https://github.com/Vibblez/MidenQuest
-// @version      0.1.4.0
+// @version      0.1.4.1
 // @description  MidenQuest Enhancement Script
 // @updateURL    https://raw.githubusercontent.com/Vibblez/MidenQuest/master/MidenQuest.Style.Dark.user.js
 // @author       Vibblez
@@ -63,6 +63,10 @@
 	addGlobalStyle('#InfoTS .InfoLine:nth-of-type(1) {font-weight: bolder;}');	
 	addGlobalStyle('#InfoTS > .InfoLine div:nth-of-type(1) {text-align: center;}');	
 	addGlobalStyle('.SearchLinkDiv {    background-color: #858585 !important;    color: #000 !important;    border: solid 1px #000 !important;    box-shadow: #000 5px 2px 10px;    width: 90%;    padding: 5px;}.SearchLinkDiv div:nth-of-type(1) {    font-weight: bolder;    font-size: 13px !important;}.SearchLinkDiv > div {    font-size: x-small !important;    text-align: center !important;    width: 100%;');	
+	//Scroll bar styles provided by Shamadruu
+	addGlobalStyle('::-webkit-scrollbar { width:6px; height:6px;}');
+	addGlobalStyle('::-webkit-scrollbar-track { -webkig-box-shadow: inset 0 0 6px rgba(200,200,200,0.3); border-radius:10px;}');
+	addGlobalStyle('::-webkit-scrollbar-thumb { border-radius: 10px; background: rgba(125,125,125,0.8);}');
 	//Styling for Vibblez custom nav menu
 	addGlobalStyle('.drop_menu li:hover ul { background-color: #555 !important;}');
 	addGlobalStyle('.drop_menu li:hover ul li a:hover {    background: #777; }');
