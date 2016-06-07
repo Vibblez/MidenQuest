@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         MidenQuestCustomNavbar
+// @name         MidenQuest - Custom Navbar
 // @namespace    https://github.com/Vibblez/MidenQuest
-// @version      0.1.2.5
+// @version      0.1.2.6
 // @description  MidenQuest Enhancement Script
 // @updateURL    https://raw.githubusercontent.com/Vibblez/MidenQuest/master/MidenQuest.CustomNavbar.user.js
 // @author       Vibblez
