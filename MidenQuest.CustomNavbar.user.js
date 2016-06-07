@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MidenQuestCustomNavbar
 // @namespace    https://github.com/Vibblez/MidenQuest
-// @version      0.1.2.4
+// @version      0.1.2.5
 // @description  MidenQuest Enhancement Script
 // @updateURL    https://raw.githubusercontent.com/Vibblez/MidenQuest/master/MidenQuest.CustomNavbar.user.js
 // @author       Vibblez
@@ -36,7 +36,7 @@
                            			<a href="FAQ.aspx" target="_blank">FAQ</a>\
                            		</li>\
 								<li>\
-                           			<a href="https://www.reddit.com/r/MidenQuestOnline/wiki/index">Wiki</a>\
+                           			<a href="https://www.reddit.com/r/MidenQuestOnline/wiki/index" target="_blank">Wiki</a>\
 								</li>\
 							</ul>\
 					</li>\
@@ -55,7 +55,7 @@
 							</ul>\
 					</li>\
 					<li>\
-						<a href="#">\
+						<a href="#" onclick="sendRequestContentFill(\'getEventScreen.aspx?null=\')>\
 							Event Points: <span id="ev_count0"></span>\
 						</a>\
 					</li>\
