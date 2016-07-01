@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         MidenQuest Chat Extender
+// @name         MidenQuest - Chat Extender
 // @namespace    https://github.com/Vibblez/MidenQuestStyle
-// @version      0.1
+// @version      0.1.1
 // @description  MidenQuest Chat Extender
 // @updateURL    https://raw.githubusercontent.com/Vibblez/MidenQuest/master/MidenQuest.ChatExtender.user.js
 // @author       Vibblez

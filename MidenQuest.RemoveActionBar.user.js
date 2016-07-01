@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         MidenQuest Remove Action Bar
+// @name         MidenQuest - Remove Action Bar
 // @namespace    https://github.com/Vibblez/MidenQuest
-// @version      0.1
+// @version      0.1.1
 // @description  MidenQuest Enhancement Script
 // @updateURL    https://raw.githubusercontent.com/Vibblez/MidenQuest/master/MidenQuest.RemoveActionBar.user.js
 // @author       Vibblez

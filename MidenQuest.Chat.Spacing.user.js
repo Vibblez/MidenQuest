@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MidenQuest - Chat/Tab Spacer
 // @namespace    https://github.com/Vibblez/MidenQuest
-// @version      0.1
+// @version      0.1.1
 // @description  MidenQuest Enhancement Script
 // @updateURL    https://raw.githubusercontent.com/Vibblez/MidenQuest/master/MidenQuest.Chat.Spacing.user.js
 // @author       Vibblez
@@ -26,5 +26,5 @@
     }
 
 	addGlobalStyle('#ChatLog > div { padding: 0.1em; }');
-	addGlobalStyle('.Tabs div { width: 110px; text-align: left; padding-left: 15px; }');
+	addGlobalStyle('#ChatZone > .Tabs div { width: 110px; text-align: left; padding-left: 15px; }');
 })();
