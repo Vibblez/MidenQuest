@@ -53,6 +53,8 @@
     addGlobalStyle('.SearchLinkDiv { background-color: #858585 !important; color: #000 !important; border: solid 1px #000 !important;}');
 	addGlobalStyle('#ChatLog { background-color: #333 }');
 	addGlobalStyle('#ChatLog > div, #ChatLog > div > span { color: #999 !important; }');
+	addGlobalStyle('#ChatLog > div, #ChatLog > div > span { color: #999 !important; }#ChatLog div:nth-of-type(odd) { background-color: #555; display: inline-block; width: 100%; padding-top: 3px;padding-bottom: 3px;}');
+	addGlobalStyle('#ChatLog > div, #ChatLog > div > span { color: #999 !important; }#ChatLog div:nth-of-type(even) { display: inline-block; width: 100%; padding-top: 3px; padding-bottom: 3px;}');
 	addGlobalStyle('#ZoneChat > div > #txtMessage {width: 870px !important;}');
 	addGlobalStyle('.TabSel div {     background: #333 !important;    color: #999 !important; }');
 	addGlobalStyle('.Tabs li:hover div {     background: #333 !important;    color: #999 !important; }');
